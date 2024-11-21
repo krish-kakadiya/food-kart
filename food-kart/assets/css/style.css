@@ -1,0 +1,177 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.nav-buttons a button {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.nav-buttons a button:hover {
+    background-color: #e65a50;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-image: url('../images/food1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.over-txt {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.heading1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.order-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #e65a50;
+}
+
+/* Explore Section */
+.explore-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.explore-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.explore-section p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.2em;
+    }
+
+    .order-btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .footer-content ul {
+        flex-direction: column;
+    }
+}

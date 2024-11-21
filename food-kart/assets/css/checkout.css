@@ -1,0 +1,86 @@
+/* checkout.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.checkout-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+}
+
+.checkout-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checkout-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.item-price, .item-quantity, .item-total {
+    margin-bottom: 5px;
+}
+
+.checkout-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-summary p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.pay-now-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pay-now-btn:hover {
+    background-color: #218838;
+}
+
+.empty-cart-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
